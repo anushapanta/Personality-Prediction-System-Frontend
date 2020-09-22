@@ -1,0 +1,23 @@
+form{
+	margin-left: 10px;
+}
+
+
+
+
+
+label{
+	/*color:#111E6C;*/
+	color: #35475e;
+	font-weight: bold;
+	font-size: 20px;
+}
+h1{
+	color: #35475e;
+	text-align: center;
+	font-weight: bold;
+}
+input{
+	border-radius: 5px;
+}
+

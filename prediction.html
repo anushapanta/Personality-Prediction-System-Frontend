@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Personality Prediction</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+<div class="header">
+    <div class="logo">
+        <i class="fa fa-tachometer"></i>
+        <span>Resume Builder</span>
+    </div>
+
+    <a class="logout" href="{% url 'logout' %}"> <span>Logout</span></a>
+        <a href="#" class="nav-trigger"><span></span></a>
+</div>
+<div class="side-nav">
+    <div class="logo">
+        <i class="fa fa-tachometer"></i>
+        <span>Resume Builder</span>
+    </div>
+    <nav>
+        <ul>
+            <li>
+                <a href="Home.html">
+                    <span><i class="icofont-home"></i></span>
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="Messages.html">
+
+                    <span><i class="icofont-ui-message"></i></span>
+                    <span>Messages</span>
+                </a>
+            </li>
+            <li class="active">
+                <a href="Analytics.html">
+                    <span><i class="icofont-chart-bar-graph"></i></span>
+                    <span>Analytics</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span><i class="icofont-photobucket"></i></span>
+                    <span>Portfolio</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
+<div class="main-content">
+    <h1 style="font-size: 60px;color: #111E6C">PERSONALITY &nbsp;PREDICTION </h1>
+
+
+  <div class="welcome-text">
+      <label>Step 1: Submit your cv </label>
+      <hr style="color: #35475e;border:1px solid  #111E6C;width:800px">
+          <input type="file" id="myFile" name="filename">
+          <center><button class="btn btn-success" type="Submit">Submit</button></center>
+
+          <br>
+          <br>
+          <br>
+          <label>Step 2: Take Personality Test</label><hr style="color: #35475e;border:1px solid  #111E6C;width:800px">
+          <center><button class="btn btn-success" ><a href="test.html" style="color: white">Take The Test</a></button></center>
+  </div>
+
+</header>
+</div>
+  </body>
+</html>

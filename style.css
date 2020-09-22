@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-image : url("background_image.jpg");
+    height: 100vh;
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position:fixed;
+    position: relative;    
+}
+h1{
+    text-align: center;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;  
+}
+.welcome-text{
+    position: absolute;
+    text-align: center;
+    margin-top: 4%;
+    margin-left: 10%;
+    font-size: 16px;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+    color: #35475e;
+}
+
+
+

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fill Up Form</title>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="formstyle.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    
+</head>
+<body>
+<div class="header">
+    <div class="logo">
+        <i class="fa fa-tachometer"></i>
+        <span>Resume Builder</span>
+    </div>
+
+		<a class="logout" href="{% url 'logout' %}"> <span>Logout</span></a>
+        <a href="#" class="nav-trigger"><span></span></a>
+</div>
+<div class="side-nav">
+    <div class="logo">
+        <i class="fa fa-tachometer"></i>
+        <span>Resume Builder</span>
+    </div>
+    <nav>
+        <ul>
+            <li>
+                <a href="Home.html">
+                    <span><i class="icofont-home"></i></span>
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="Messages.html">
+
+                    <span><i class="icofont-ui-message"></i></span>
+                    <span>Messages</span>
+                </a>
+            </li>
+            <li class="active">
+                <a href="Analytics.html">
+                    <span><i class="icofont-chart-bar-graph"></i></span>
+                    <span>Analytics</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span><i class="icofont-photobucket"></i></span>
+                    <span>Portfolio</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
+<div class="main-content">
+    <h1>Skills and Hobbies</h1><br><hr style="height:2px;border-width:0;color:gray;background-color:#35475e"><br>
+
+    <form>
+        <div class="form-group">
+        <label for="inputSkill">Skills</label>
+        <input type="text" id="inputSkill" class="form-control" aria-describedby="skillHelpBlock">
+        <small id="skillHelpBlock" class="form-text " style="color: #35475e">
+            Each skill typed must be separated with semicolon (";").
+        </small>
+    </div>
+
+
+    <div class="form-group">
+        <label for="inputLanguage">Languages</label>
+        <input type="text" id="inputLanguage" class="form-control" aria-describedby="languageHelpBlock">
+        <small id="languageHelpBlock" class="form-text " style="color:#35475e">
+            Each language typed must be separated with semicolon (";").
+        </small>
+    </div>
+
+    <div class="form-group">
+        <label for="inputHobbies">Hobbies</label>
+        <input type="text" id="inputHobbies" class="form-control" aria-describedby="hobbiesHelpBlock">
+        <small id="hobbiesHelpBlock" class="form-text " style="color:#35475e">
+            Each hobby typed must be separated with semicolon (";").
+        </small>
+    </div>
+
+    <div class="form-group">
+        <label for="inputprogramminglanguage">Programming Languages (Optional)</label>
+        <input type="text" id="inputprogramminglanguage" class="form-control" aria-describedby="programmingHelpBlock">
+        <small id="programmingHelpBlock" class="form-text " style="color: #35475e">
+            Each programming language  typed must be separated with semicolon (";").
+        </small>
+    </div>
+
+        <center><button type="submit" class="btn btn-danger btn-lg"><a href="educational.html">Back</a></button></center>
+            <center><button type="submit" class="btn btn-warning btn-lg"><a href="work_projects.html">Next</a></button></center>
+    </form>
+
+
+    
+</div>
+	</body>
+</html>
